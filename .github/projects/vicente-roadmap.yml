@@ -1,160 +1,115 @@
-name: Roadmap CCIE – Vicente (Día 1–50)
-description: Roadmap CCIE EI v1.1 con brainstorm, calendar y timeline
-public: true
-
+name: "Roadmap CCIE Enterprise Infrastructure v1.1 — Vicente"
+body: "Roadmap completo para CCIE EI v1.1 con 365 días de planificación, labs, checklist y motivación."
+start-date: 2025-10-17
+due-date: 2026-10-16
 fields:
-  - name: Status
+  - name: "Phase"
     type: single_select
     options:
-      - { name: Todo }
-      - { name: Doing }
-      - { name: Review }
-      - { name: Done }
-
-  - name: Start Date
-    type: date
-  - name: Due Date
-    type: date
-  - name: Phase
+      - Fase 0: Planeación y Preparación
+      - Fase 1: Fundamentos Switching / L2-L3
+      - Fase 2: Routing Avanzado / BGP
+      - Fase 3: Infraestructura Empresarial / QoS
+      - Fase 4: SD-WAN y SD-Access
+      - Fase 5: Automatización y Programmability
+      - Fase 6: Integración / Labs reales
+      - Fase 7: Revisión final / Mindset CCIE
+  - name: "Status"
     type: single_select
     options:
-      - { name: F0 }
-      - { name: F1 }
-      - { name: F2 }
-      - { name: F3 }
-  - name: Day
-    type: number
-  - name: Week
-    type: number
-  - name: Type
-    type: single_select
-    options:
-      - { name: Study }
-      - { name: Lab }
-      - { name: Review }
-      - { name: Motivación }
+      - Pendiente
+      - En progreso
+      - Completo
+cards:
+  # Fase 0
+  - note: "Descargar Cisco Blueprint CCIE EI v1.1"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-18
+  - note: "Crear tracker personal en Notion / GitHub Projects"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-18
+  - note: "Configurar laboratorio virtual (EVE-NG, CML2, GNS3)"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-20
+  - note: "Instalar imágenes IOS-XE, IOSvL2, CSR1000v"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-21
+  - note: "Crear cuenta DevNet y NetworkLessons"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-22
+  - note: "Definir calendario semanal y bloques de estudio"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-23
+  - note: "Instalar Anki y crear mazo 'CCIE EI v1.1 – Comandos y conceptos'"
+    phase: "Fase 0: Planeación y Preparación"
+    status: "Pendiente"
+    due-date: 2025-10-24
 
-views:
-  - name: Brainstorm
-    type: board
-    group_by: Status
+  # Fase 1 (semana 3-10)
+  - note: "Labs VLAN, 802.1Q, DTP, STP, RSTP, MSTP, EtherChannel"
+    phase: "Fase 1: Fundamentos Switching / L2-L3"
+    status: "Pendiente"
+    due-date: 2025-10-31
+  - note: "Configurar HSRP, VRRP, GLBP, VTP"
+    phase: "Fase 1: Fundamentos Switching / L2-L3"
+    status: "Pendiente"
+    due-date: 2025-11-05
+  - note: "Routing estático, EIGRP, OSPFv2/v3, redistribución básica"
+    phase: "Fase 1: Fundamentos Switching / L2-L3"
+    status: "Pendiente"
+    due-date: 2025-11-10
+  - note: "Completar 10 labs de L2 y 5 labs de redundancia L3"
+    phase: "Fase 1: Fundamentos Switching / L2-L3"
+    status: "Pendiente"
+    due-date: 2025-12-01
 
-  - name: Table
-    type: table
-    fields: [Title, Start Date, Due Date, Phase, Day, Week, Status, Type]
+  # Fase 2 (semana 11-18)
+  - note: "Dominar BGP (iBGP/eBGP, route reflectors, policies)"
+    phase: "Fase 2: Routing Avanzado / BGP"
+    status: "Pendiente"
+    due-date: 2025-12-27
+  - note: "Configurar MPLS, LDP, labels, LFIB"
+    phase: "Fase 2: Routing Avanzado / BGP"
+    status: "Pendiente"
+    due-date: 2026-01-05
+  - note: "Labs MPLS VPN, VRFs, route leaking"
+    phase: "Fase 2: Routing Avanzado / BGP"
+    status: "Pendiente"
+    due-date: 2026-01-15
 
-  - name: Timeline
-    type: timeline
-    date_field: Start Date
-    end_date_field: Due Date
-    group_by: Phase
+  # Fase 3 (semana 19-26)
+  - note: "Campus design, QoS, multicast y gestión avanzada"
+    phase: "Fase 3: Infraestructura Empresarial / QoS"
+    status: "Pendiente"
+    due-date: 2026-02-21
 
-items:
-  - title: "Fase 0 – Preparación"
-    status: Todo
-    phase: F0
-    start_date: 2025-10-17
-    due_date: 2025-10-30
-    day: 1
-    week: 1
-    type: Study
+  # Fase 4 (semana 27-34)
+  - note: "Cisco SD-WAN: vManage, vBond, vSmart"
+    phase: "Fase 4: SD-WAN y SD-Access"
+    status: "Pendiente"
+    due-date: 2026-04-17
 
-  - title: "Instalar lab virtual EVE/CML2/GNS3"
-    status: Todo
-    phase: F0
-    start_date: 2025-10-18
-    due_date: 2025-10-18
-    day: 2
-    week: 1
-    type: Lab
+  # Fase 5 (semana 35-42)
+  - note: "Introducción Python, Ansible, RESTCONF / NETCONF"
+    phase: "Fase 5: Automatización y Programmability"
+    status: "Pendiente"
+    due-date: 2026-06-12
 
-  - title: "Crear tracker en GitHub/Notion + mazo Anki"
-    status: Todo
-    phase: F0
-    start_date: 2025-10-19
-    due_date: 2025-10-19
-    day: 3
-    week: 1
-    type: Study
+  # Fase 6 (semana 43-50)
+  - note: "Integración completa de protocolos, troubleshooting 8h"
+    phase: "Fase 6: Integración / Labs reales"
+    status: "Pendiente"
+    due-date: 2026-08-07
 
-  - title: "Configurar SSH, templates y aliases"
-    status: Todo
-    phase: F0
-    start_date: 2025-10-20
-    due_date: 2025-10-20
-    day: 4
-    week: 1
-    type: Lab
-
-  - title: "Repaso L2/L3 base + VLANs y STP"
-    status: Todo
-    phase: F1
-    start_date: 2025-10-21
-    due_date: 2025-10-24
-    day: 5
-    week: 2
-    type: Study
-
-  - title: "Labs VLANs, Trunking, EtherChannel"
-    status: Todo
-    phase: F1
-    start_date: 2025-10-21
-    due_date: 2025-10-24
-    day: 5
-    week: 2
-    type: Lab
-
-  - title: "Mini examen L2/L3"
-    status: Todo
-    phase: F1
-    start_date: 2025-10-25
-    due_date: 2025-10-26
-    day: 10
-    week: 2
-    type: Review
-
-  - title: "Semana 3 – EIGRP básico"
-    status: Todo
-    phase: F1
-    start_date: 2025-10-27
-    due_date: 2025-11-02
-    day: 11
-    week: 3
-    type: Study
-
-  - title: "Semana 4 – OSPF básico y avanzado"
-    status: Todo
-    phase: F1
-    start_date: 2025-11-03
-    due_date: 2025-11-09
-    day: 18
-    week: 4
-    type: Study
-
-  - title: "Semana 5 – Redistribución, HSRP/VRRP/GLBP"
-    status: Todo
-    phase: F1
-    start_date: 2025-11-10
-    due_date: 2025-11-16
-    day: 25
-    week: 5
-    type: Lab
-
-  - title: "Semana 6 – BGP básico y atributos"
-    status: Doing
-    phase: F2
-    start_date: 2025-11-17
-    due_date: 2025-11-23
-    day: 32
-    week: 6
-    type: Study
-
-  - title: "Semana 7 – MPLS básico + VRF + MP-BGP"
-    status: Todo
-    phase: F2
-    start_date: 2025-11-24
-    due_date: 2025-11-30
-    day: 39
-    week: 7
-    type: Lab
+  # Fase 7 (semana 51-52)
+  - note: "Revisión final blueprint, simulacros y mindset CCIE"
+    phase: "Fase 7: Revisión final / Mindset CCIE"
+    status: "Pendiente"
+    due-date: 2026-10-02
 
