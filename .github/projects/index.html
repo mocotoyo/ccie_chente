@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CCIE Roadmap Interactive (Bilingual)</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="roadmap-container">
+
+  <svg id="svgPaths" width="100%" height="3000">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+        <polygon points="0 0,10 3,0 6" fill="#333"/>
+      </marker>
+    </defs>
+  </svg>
+
+  <!-- Blocks -->
+  <div class="block" data-title-es="Entry / Junior Engineer" data-title-en="Entry / Junior Engineer"
+       data-content-es="📘 CCNA<br>💻 VLANs, OSPF, ACLs<br>📚 Guía oficial CCNA<br>🕒 3-6 meses<br>Labs en Packet Tracer / GNS3."
+       data-content-en="📘 CCNA<br>💻 VLANs, OSPF, ACLs<br>📚 CCNA Official Guide<br>🕒 3-6 months<br>Labs on Packet Tracer / GNS3."
+       style="background:linear-gradient(90deg,#cce5ff,#004085)">
+    <h2>Entry / Junior Engineer</h2>
+    <div class="tooltip">Tip/es: fundamentos TCP/IP y routing.</div>
+  </div>
+
+  <div class="block" data-title-es="Associate / Network Engineer" data-title-en="Associate / Network Engineer"
+       data-content-es="📘 CCNP ENCOR<br>💻 OSPF/BGP, MPLS, QoS<br>📚 CCNP ENCOR & ENARSI<br>🕒 6-9 meses<br>Labs en GNS3/EVE-NG."
+       data-content-en="📘 CCNP ENCOR<br>💻 OSPF/BGP, MPLS, QoS<br>📚 CCNP ENCOR & ENARSI<br>🕒 6-9 months<br>Labs on GNS3/EVE-NG."
+       style="background:linear-gradient(90deg,#d4edda,#155724)">
+    <h2>Associate / Network Engineer</h2>
+    <div class="tooltip">Tip/es: BGP/MPLS avanzado.</div>
+  </div>
+
+  <div class="block" data-title-es="Professional / Mid-level Engineer" data-title-en="Professional / Mid-level Engineer"
+       data-content-es="📘 CCNP + Labs<br>💻 Dual-stack IPv4/IPv6, SD-WAN, SD-Access<br>📚 Guía CCIE Enterprise<br>🕒 9-12 meses<br>Labs avanzados SDN/Mesh."
+       data-content-en="📘 CCNP + Labs<br>💻 Dual-stack IPv4/IPv6, SD-WAN, SD-Access<br>📚 CCIE Enterprise Guide<br>🕒 9-12 months<br>Advanced SDN/Mesh labs."
+       style="background:linear-gradient(90deg,#fff3cd,#856404)">
+    <h2>Professional / Mid-level Engineer</h2>
+    <div class="tooltip">Tip/es: dual-stack y Service Mesh.</div>
+  </div>
+
+  <div class="block" data-title-es="Expert / CCIE Prep" data-title-en="Expert / CCIE Prep"
+       data-content-es="📘 CCIE Written + Lab<br>💻 Topologías reales, Python/Ansible<br>📚 CCIE Lab Guides<br>🕒 12-18 meses<br>Automatización y troubleshooting avanzado."
+       data-content-en="📘 CCIE Written + Lab<br>💻 Full-scale topologies, Python/Ansible<br>📚 CCIE Lab Guides<br>🕒 12-18 months<br>Automation and advanced troubleshooting."
+       style="background:linear-gradient(90deg,#f8d7da,#721c24)">
+    <h2>Expert / CCIE Prep</h2>
+    <div class="tooltip">Tip/es: topologías completas y troubleshooting.</div>
+  </div>
+
+  <div class="block" data-title-es="CCIE Lab / Expert Certification" data-title-en="CCIE Lab / Expert Certification"
+       data-content-es="📘 CCIE Lab Exam<br>💻 Topologías realistas, SD-WAN, QoS<br>🕒 3-6 meses intensivos<br>Simulación examen real."
+       data-content-en="📘 CCIE Lab Exam<br>💻 Realistic topologies, SD-WAN, QoS<br>🕒 3-6 months intensive<br>Exam simulation."
+       style="background:linear-gradient(90deg,#d1ecf1,#0c5460)">
+    <h2>CCIE Lab / Expert Certification</h2>
+    <div class="tooltip">Tip/es: simula examen real.</div>
+  </div>
+
+  <div class="block" data-title-es="Continuous Learning / Advanced Skills" data-title-en="Continuous Learning / Advanced Skills"
+       data-content-es="📘 CCDE / Recert<br>💻 SDN, Mesh, Automatización<br>📚 Cisco DevNet, Python, Ansible<br>🕒 Continuo<br>Mantén conocimientos actualizados."
+       data-content-en="📘 CCDE / Recert<br>💻 SDN, Mesh, Automation<br>📚 Cisco DevNet, Python, Ansible<br>🕒 Ongoing<br>Keep skills up-to-date."
+       style="background:linear-gradient(90deg,#e2e3e5,#383d41); color:#fff;">
+    <h2>Continuous Learning / Advanced Skills</h2>
+    <div class="tooltip">Tip/es: SDN y automatización avanzada.</div>
+  </div>
+
+</div>
+
+<div id="panel">
+  <h2>CCIE Roadmap Panel</h2>
+  <div style="margin-bottom:8px;">
+    <label for="lang">Language / Idioma:</label>
+    <select id="lang">
+      <option value="en">English</option>
+      <option value="es" selected>Español</option>
+      <option value="both">Bilingual / Bilingüe</option>
+    </select>
+  </div>
+  <p id="panelContent">Scroll to see details of each stage. / Desplázate para ver detalles de cada etapa.</p>
+</div>
+
+<div class="progress-indicator">
+  <div class="progress-fill" style="height:0%"></div>
+</div>
+
+<script src="js/roadmap-animated.js"></script>
+</body>
+</html>
