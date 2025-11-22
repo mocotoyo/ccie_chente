@@ -1,0 +1,160 @@
+name: Roadmap CCIE – Vicente (Día 1–50)
+description: Roadmap CCIE EI v1.1 con brainstorm, calendar y timeline
+public: true
+
+fields:
+  - name: Status
+    type: single_select
+    options:
+      - { name: Todo }
+      - { name: Doing }
+      - { name: Review }
+      - { name: Done }
+
+  - name: Start Date
+    type: date
+  - name: Due Date
+    type: date
+  - name: Phase
+    type: single_select
+    options:
+      - { name: F0 }
+      - { name: F1 }
+      - { name: F2 }
+      - { name: F3 }
+  - name: Day
+    type: number
+  - name: Week
+    type: number
+  - name: Type
+    type: single_select
+    options:
+      - { name: Study }
+      - { name: Lab }
+      - { name: Review }
+      - { name: Motivación }
+
+views:
+  - name: Brainstorm
+    type: board
+    group_by: Status
+
+  - name: Table
+    type: table
+    fields: [Title, Start Date, Due Date, Phase, Day, Week, Status, Type]
+
+  - name: Timeline
+    type: timeline
+    date_field: Start Date
+    end_date_field: Due Date
+    group_by: Phase
+
+items:
+  - title: "Fase 0 – Preparación"
+    status: Todo
+    phase: F0
+    start_date: 2025-10-17
+    due_date: 2025-10-30
+    day: 1
+    week: 1
+    type: Study
+
+  - title: "Instalar lab virtual EVE/CML2/GNS3"
+    status: Todo
+    phase: F0
+    start_date: 2025-10-18
+    due_date: 2025-10-18
+    day: 2
+    week: 1
+    type: Lab
+
+  - title: "Crear tracker en GitHub/Notion + mazo Anki"
+    status: Todo
+    phase: F0
+    start_date: 2025-10-19
+    due_date: 2025-10-19
+    day: 3
+    week: 1
+    type: Study
+
+  - title: "Configurar SSH, templates y aliases"
+    status: Todo
+    phase: F0
+    start_date: 2025-10-20
+    due_date: 2025-10-20
+    day: 4
+    week: 1
+    type: Lab
+
+  - title: "Repaso L2/L3 base + VLANs y STP"
+    status: Todo
+    phase: F1
+    start_date: 2025-10-21
+    due_date: 2025-10-24
+    day: 5
+    week: 2
+    type: Study
+
+  - title: "Labs VLANs, Trunking, EtherChannel"
+    status: Todo
+    phase: F1
+    start_date: 2025-10-21
+    due_date: 2025-10-24
+    day: 5
+    week: 2
+    type: Lab
+
+  - title: "Mini examen L2/L3"
+    status: Todo
+    phase: F1
+    start_date: 2025-10-25
+    due_date: 2025-10-26
+    day: 10
+    week: 2
+    type: Review
+
+  - title: "Semana 3 – EIGRP básico"
+    status: Todo
+    phase: F1
+    start_date: 2025-10-27
+    due_date: 2025-11-02
+    day: 11
+    week: 3
+    type: Study
+
+  - title: "Semana 4 – OSPF básico y avanzado"
+    status: Todo
+    phase: F1
+    start_date: 2025-11-03
+    due_date: 2025-11-09
+    day: 18
+    week: 4
+    type: Study
+
+  - title: "Semana 5 – Redistribución, HSRP/VRRP/GLBP"
+    status: Todo
+    phase: F1
+    start_date: 2025-11-10
+    due_date: 2025-11-16
+    day: 25
+    week: 5
+    type: Lab
+
+  - title: "Semana 6 – BGP básico y atributos"
+    status: Doing
+    phase: F2
+    start_date: 2025-11-17
+    due_date: 2025-11-23
+    day: 32
+    week: 6
+    type: Study
+
+  - title: "Semana 7 – MPLS básico + VRF + MP-BGP"
+    status: Todo
+    phase: F2
+    start_date: 2025-11-24
+    due_date: 2025-11-30
+    day: 39
+    week: 7
+    type: Lab
+
