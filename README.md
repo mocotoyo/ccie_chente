@@ -1,69 +1,73 @@
-# 🌐 Roadmap CCIE Enterprise Infrastructure v1.1 — Vicente
+# ��� Roadmap CCIE Enterprise Infrastructure v1.1 — Vicente
 
-Bienvenido al **roadmap de 365 días**, organizado por fases, labs y checklist diario.
+Bienvenido al **roadmap de 365 dias**, organizado por fases, labs y checklist diario.
 
-## 🚀 Acceso al Project en GitHub  
+## ��� Acceso al Project en GitHub
 [➡️ Ver Roadmap en GitHub Projects](https://github.com/users/mocotoyo/projects/1)
 
-Vistas recomendadas: Board view 🗂, Table view 📊, Timeline / Calendar 📅
+Vistas recomendadas: Board view ���, Table view ���, Timeline / Calendar ���
 
 ---
 
-## 🔹 Fases
+## ��� Fases
 
 | Fase | Emoji | Semanas |
-|---|---|---|
-| Fase 0 | :memo: | 1‑2 |  
-| Fase 1 | :arrows_counterclockwise: | 3‑10 |  
-| Fase 2 | :globe_with_meridians: | 11‑18 |  
-| Fase 3 | :office: | 19‑26 |  
-| Fase 4 | :cloud: | 27‑34 |  
-| Fase 5 | :robot: | 35‑42 |  
-| Fase 6 | :wrench: | 43‑50 |  
-| Fase 7 | :checkered_flag: | 51‑52 |  
+|------|-------|---------|
+| Fase 0 | :memo: | 1-2 |
+| Fase 1 | :arrows_counterclockwise: | 3-10 |
+| Fase 2 | :globe_with_meridians: | 11-18 |
+| Fase 3 | :office: | 19-26 |
+| Fase 4 | :cloud: | 27-34 |
+| Fase 5 | :robot: | 35-42 |
+| Fase 6 | :wrench: | 43-50 |
+| Fase 7 | :checkered_flag: | 51-52 |
 
 ---
 
-## 📅 Checklist diario (365 días)
+## ��� Checklist diario (resumen 365 días)
 
 | Día | Fase | Actividad | Estado |
 |-----|------|-----------|--------|
-| 1 | :memo: Fase 0 | Descargar Blueprint CCIE EI v1.1 | ⏳ |  
-| 2 | :memo: Fase 0 | Configurar tracker Notion | ⏳ |  
-| 3 | :memo: Fase 0 | Configurar laboratorio virtual | ⏳ |  
-| 4 | :memo: Fase 0 | Instalar imagenes IOS‑XE / CSR | ⏳ |  
-| 5 | :memo: Fase 0 | Crear cuenta DevNet | ⏳ |  
-| 6 | :memo: Fase 0 | Definir calendario semanal | ⏳ |  
-| 7 | :memo: Fase 0 | Instalar Anki | ⏳ |  
-| 8 | :arrows_counterclockwise: Fase 1 | Labs VLANs y STP | ⏳ |  
-| 9 | :arrows_counterclockwise: Fase 1 | Configurar EIGRP/OSPF mixto | ⏳ |  
-| 10 | :arrows_counterclockwise: Fase 1 | Debugging y show commands | ⏳ |  
-| 11 | :arrows_counterclockwise: Fase 1 | Labs adicionales L2/L3 | ⏳ |  
-| … | … | … | … |  
-| 365 | :checkered_flag: Fase 7 | Simulacro final / Repaso completo | ⏳ |
+| 1 | :memo: Fase 0 | Descargar Blueprint CCIE EI v1.1 | ⏳ |
+| 2 | :memo: Fase 0 | Configurar tracker Notion | ⏳ |
+| 3 | :memo: Fase 0 | Configurar laboratorio virtual | ⏳ |
+| 4 | :memo: Fase 0 | Instalar imagenes IOS-XE / CSR | ⏳ |
+| 5 | :memo: Fase 0 | Crear cuenta DevNet | ⏳ |
+| 6 | :memo: Fase 0 | Definir calendario semanal | ⏳ |
+| 7 | :memo: Fase 0 | Instalar Anki | ⏳ |
+| 8 | :arrows_counterclockwise: Fase 1 | Labs VLANs y STP | ⏳ |
+| 9 | :arrows_counterclockwise: Fase 1 | Configurar EIGRP/OSPF mixto | ⏳ |
+| 10 | :arrows_counterclockwise: Fase 1 | Debugging y show commands | ⏳ |
+| 11-26 | :arrows_counterclockwise: Fase 1 | Labs L2/L3 adicionales | ⏳ |
+| 27-34 | :globe_with_meridians: Fase 2 | Labs BGP, MPLS, VRFs | ⏳ |
+| 35-42 | :office: Fase 3 | QoS, Multicast, Troubleshooting | ⏳ |
+| 43-50 | :cloud: Fase 4 | SD-WAN / SD-Access labs | ⏳ |
+| 51-58 | :robot: Fase 5 | Python, Ansible, RESTCONF labs | ⏳ |
+| 59-66 | :wrench: Fase 6 | Labs integrales 6–8h, Deploy, Operacion | ⏳ |
+| 67-365 | :checkered_flag: Fase 7 | Repasos, simulacros, blueprint completo, documentar errores y soluciones | ⏳ |
 
-> ⚠️ Este es un resumen de las actividades. Para tenerlas todas definidas con más detalle, importa el YAML `vicente-roadmap-365.yml` en tu Project de GitHub.
-
----
-
-## 💡 Tips de uso
-
-- Marca cada tarjeta: ⏳ Pendiente → 🔄 En progreso → ✅ Completado  
-- Usa emojis de fase para orientarte rápido  
-- Revisa la vista de **Timeline / Calendar** para planear tus bloques de estudio  
-- Anota errores y soluciones directamente en las tarjetas del Project  
+> Nota: Cada bloque puede expandirse con actividades diarias especificas. En GitHub Projects puedes importar el YAML `vicente-roadmap-365.yml` y tener **365 tarjetas**, listas para marcar ✅.
 
 ---
 
-## 📚 Bibliografía recomendada
+## ��� Tips de uso
 
-- *Routing TCP/IP Vol 1 & 2* — Jeff Doyle  
-- *MPLS Fundamentals* — Luc De Ghein  
-- *CCIE Enterprise Infrastructure v1.1 Official Cert Guide* — Cisco  
+- Marca cada tarjeta: ⏳ Pendiente / ��� En progreso / ✅ Completado
+- Usa emojis de fase y lab para identificar rapidamente el contenido
+- Consulta Calendar / Timeline para planificar bloques de estudio
+- Documenta errores y soluciones de tus labs directamente en las tarjetas
 
 ---
 
-## 💪 Motivación diaria
+## ��� Bibliografia general
 
-> “Vicente, tu disciplina de hoy define tu éxito de mañana. Cada lab, cada día, cada línea importan. ¡Vamos con todo para conquistar ese CCIE EI v1.1!”
+- *Routing TCP/IP Vol 1 & 2* — Jeff Doyle
+- *MPLS Fundamentals* — Luc De Ghein
+- *CCIE Enterprise Infrastructure v1.1 Official Cert Guide* — Cisco
+
+---
+
+## ��� Motivacion diaria
+
+> “Vicente, tu disciplina define tu exito. Cada lab, cada tarjeta, cada dia cuenta. Mantente constante, documenta todo y conquistaras tu CCIE EI v1.1.”
 
