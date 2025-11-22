@@ -1,5 +1,5 @@
 name: "Roadmap CCIE Enterprise Infrastructure v1.1 — Vicente"
-body: "Roadmap completo para CCIE EI v1.1 con 365 días de planificación, labs, checklist y motivación."
+body: "Roadmap completo de 365 días para CCIE EI v1.1 con fases, labs, checklists y motivación diaria."
 start-date: 2025-10-17
 due-date: 2026-10-16
 fields:
@@ -21,11 +21,11 @@ fields:
       - En progreso
       - Completo
 cards:
-  # Fase 0
+  # --- Fase 0: Semanas 1-2 ---
   - note: "Descargar Cisco Blueprint CCIE EI v1.1"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-18
+    due-date: 2025-10-17
   - note: "Crear tracker personal en Notion / GitHub Projects"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
@@ -33,83 +33,86 @@ cards:
   - note: "Configurar laboratorio virtual (EVE-NG, CML2, GNS3)"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-20
+    due-date: 2025-10-19
   - note: "Instalar imágenes IOS-XE, IOSvL2, CSR1000v"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-21
+    due-date: 2025-10-20
   - note: "Crear cuenta DevNet y NetworkLessons"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-22
+    due-date: 2025-10-21
   - note: "Definir calendario semanal y bloques de estudio"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-23
+    due-date: 2025-10-22
   - note: "Instalar Anki y crear mazo 'CCIE EI v1.1 – Comandos y conceptos'"
     phase: "Fase 0: Planeación y Preparación"
     status: "Pendiente"
-    due-date: 2025-10-24
+    due-date: 2025-10-23
 
-  # Fase 1 (semana 3-10)
+  # --- Fase 1: Semanas 3-10 ---
   - note: "Labs VLAN, 802.1Q, DTP, STP, RSTP, MSTP, EtherChannel"
     phase: "Fase 1: Fundamentos Switching / L2-L3"
     status: "Pendiente"
-    due-date: 2025-10-31
+    due-date: 2025-10-24
   - note: "Configurar HSRP, VRRP, GLBP, VTP"
     phase: "Fase 1: Fundamentos Switching / L2-L3"
     status: "Pendiente"
-    due-date: 2025-11-05
+    due-date: 2025-10-25
   - note: "Routing estático, EIGRP, OSPFv2/v3, redistribución básica"
     phase: "Fase 1: Fundamentos Switching / L2-L3"
     status: "Pendiente"
-    due-date: 2025-11-10
+    due-date: 2025-10-26
   - note: "Completar 10 labs de L2 y 5 labs de redundancia L3"
     phase: "Fase 1: Fundamentos Switching / L2-L3"
     status: "Pendiente"
-    due-date: 2025-12-01
+    due-date: 2025-10-27
+  - note: "100 tarjetas Anki de L2/L3"
+    phase: "Fase 1: Fundamentos Switching / L2-L3"
+    status: "Pendiente"
+    due-date: 2025-10-28
 
-  # Fase 2 (semana 11-18)
-  - note: "Dominar BGP (iBGP/eBGP, route reflectors, policies)"
+  # --- Fase 2: Semanas 11-18 ---
+  - note: "Dominar BGP iBGP/eBGP, route reflectors y policies"
     phase: "Fase 2: Routing Avanzado / BGP"
     status: "Pendiente"
     due-date: 2025-12-27
-  - note: "Configurar MPLS, LDP, labels, LFIB"
+  - note: "Configurar MPLS LDP, labels, LFIB"
     phase: "Fase 2: Routing Avanzado / BGP"
     status: "Pendiente"
-    due-date: 2026-01-05
-  - note: "Labs MPLS VPN, VRFs, route leaking"
+    due-date: 2026-01-03
+  - note: "Labs MPLS VPN, VRFs, route leaking y control-plane security"
     phase: "Fase 2: Routing Avanzado / BGP"
     status: "Pendiente"
-    due-date: 2026-01-15
+    due-date: 2026-01-10
 
-  # Fase 3 (semana 19-26)
+  # --- Fase 3: Semanas 19-26 ---
   - note: "Campus design, QoS, multicast y gestión avanzada"
     phase: "Fase 3: Infraestructura Empresarial / QoS"
     status: "Pendiente"
     due-date: 2026-02-21
 
-  # Fase 4 (semana 27-34)
-  - note: "Cisco SD-WAN: vManage, vBond, vSmart"
+  # --- Fase 4: Semanas 27-34 ---
+  - note: "Cisco SD-WAN: vManage, vBond, vSmart, SD-Access"
     phase: "Fase 4: SD-WAN y SD-Access"
     status: "Pendiente"
     due-date: 2026-04-17
 
-  # Fase 5 (semana 35-42)
-  - note: "Introducción Python, Ansible, RESTCONF / NETCONF"
+  # --- Fase 5: Semanas 35-42 ---
+  - note: "Introducción Python, Ansible, RESTCONF / NETCONF, Telemetría"
     phase: "Fase 5: Automatización y Programmability"
     status: "Pendiente"
     due-date: 2026-06-12
 
-  # Fase 6 (semana 43-50)
+  # --- Fase 6: Semanas 43-50 ---
   - note: "Integración completa de protocolos, troubleshooting 8h"
     phase: "Fase 6: Integración / Labs reales"
     status: "Pendiente"
     due-date: 2026-08-07
 
-  # Fase 7 (semana 51-52)
+  # --- Fase 7: Semanas 51-52 ---
   - note: "Revisión final blueprint, simulacros y mindset CCIE"
     phase: "Fase 7: Revisión final / Mindset CCIE"
     status: "Pendiente"
     due-date: 2026-10-02
-
